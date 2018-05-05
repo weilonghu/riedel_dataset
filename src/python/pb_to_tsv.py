@@ -64,5 +64,6 @@ for file_name in file_list:
 
         types = mention.feature[0].split('->')
         
-        f_write.writerow([sourceId, destId, e1_name_new.lower(), e2_name_new.lower(), types[0], types[1], relation, sentence.lower()])
+        f_write.writerow([sourceId, destId, e1_name_new.lower(), e2_name_new.lower(), 
+        	types[0], types[1], relation, sentence.lower()])
     f.close()

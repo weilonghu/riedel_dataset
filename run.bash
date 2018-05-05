@@ -20,6 +20,6 @@ cat ./data/kb_manual/trainNegative.tsv >> ./data/train1.txt
 
 cd src/python
 bash convert.bash 0
-python generate_train.py
+#python generate_train.py
 
-rm ../../data/train1.txt
+#rm ../../data/train1.txt
