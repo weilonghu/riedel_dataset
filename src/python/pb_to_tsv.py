@@ -60,7 +60,7 @@ for file_name in file_list:
 
         sentence = mention.sentence
         sentence = sentence.replace(e1_name, e1_name_new)
-        sentence = sentence.replace(e2_name_new, e2_name_new)
+        sentence = sentence.replace(e2_name, e2_name_new)
 
         types = mention.feature[0].split('->')
         
