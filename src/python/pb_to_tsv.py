@@ -55,8 +55,8 @@ for file_name in file_list:
     sourceId = guid_to_mid(sourceId)
     destId = guid_to_mid(destId)
     for mention in rel.mention:
-    	e1_name_new = e1_name.replace(' ', '_')
-    	e2_name_new = e2_name.replace(' ', '_')
+        e1_name_new = e1_name.replace(' ', '_')
+        e2_name_new = e2_name.replace(' ', '_')
 
         sentence = mention.sentence
         sentence = sentence.replace(e1_name, e1_name_new)
